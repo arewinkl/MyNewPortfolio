@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.a6282c43.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.3f368b98.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.3f368b98.chunk.js.map",
-    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.c536d151.js",
-    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.c536d151.js.map",
-    "static/css/2.2f2c82fc.chunk.css": "/reactPortfolio/static/css/2.2f2c82fc.chunk.css",
-    "static/js/2.3e0b82c4.chunk.js": "/reactPortfolio/static/js/2.3e0b82c4.chunk.js",
-    "static/js/2.3e0b82c4.chunk.js.map": "/reactPortfolio/static/js/2.3e0b82c4.chunk.js.map",
-    "index.html": "/reactPortfolio/index.html",
-    "static/css/2.2f2c82fc.chunk.css.map": "/reactPortfolio/static/css/2.2f2c82fc.chunk.css.map",
-    "static/css/main.a6282c43.chunk.css.map": "/reactPortfolio/static/css/main.a6282c43.chunk.css.map",
-    "static/js/2.3e0b82c4.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.3e0b82c4.chunk.js.LICENSE.txt",
-    "static/media/Alec-Climbing.png.150d5101.JPG": "/reactPortfolio/static/media/Alec-Climbing.png.150d5101.JPG",
-    "static/media/App.css": "/reactPortfolio/static/media/denver.5e2b53d7.jpg",
-    "static/media/portfolio-resumes.2e2e5eff.png": "/reactPortfolio/static/media/portfolio-resumes.2e2e5eff.png"
+    "main.css": "/MyNewPortfolio/static/css/main.3b97ffac.chunk.css",
+    "main.js": "/MyNewPortfolio/static/js/main.d2f24cef.chunk.js",
+    "main.js.map": "/MyNewPortfolio/static/js/main.d2f24cef.chunk.js.map",
+    "runtime-main.js": "/MyNewPortfolio/static/js/runtime-main.85920dc3.js",
+    "runtime-main.js.map": "/MyNewPortfolio/static/js/runtime-main.85920dc3.js.map",
+    "static/css/2.2f2c82fc.chunk.css": "/MyNewPortfolio/static/css/2.2f2c82fc.chunk.css",
+    "static/js/2.0b3e8c03.chunk.js": "/MyNewPortfolio/static/js/2.0b3e8c03.chunk.js",
+    "static/js/2.0b3e8c03.chunk.js.map": "/MyNewPortfolio/static/js/2.0b3e8c03.chunk.js.map",
+    "index.html": "/MyNewPortfolio/index.html",
+    "static/css/2.2f2c82fc.chunk.css.map": "/MyNewPortfolio/static/css/2.2f2c82fc.chunk.css.map",
+    "static/css/main.3b97ffac.chunk.css.map": "/MyNewPortfolio/static/css/main.3b97ffac.chunk.css.map",
+    "static/js/2.0b3e8c03.chunk.js.LICENSE.txt": "/MyNewPortfolio/static/js/2.0b3e8c03.chunk.js.LICENSE.txt",
+    "static/media/Alec-Climbing.png.150d5101.JPG": "/MyNewPortfolio/static/media/Alec-Climbing.png.150d5101.JPG",
+    "static/media/App.css": "/MyNewPortfolio/static/media/denver.5e2b53d7.jpg",
+    "static/media/portfolio-resumes.2e2e5eff.png": "/MyNewPortfolio/static/media/portfolio-resumes.2e2e5eff.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c536d151.js",
+    "static/js/runtime-main.85920dc3.js",
     "static/css/2.2f2c82fc.chunk.css",
-    "static/js/2.3e0b82c4.chunk.js",
-    "static/css/main.a6282c43.chunk.css",
-    "static/js/main.3f368b98.chunk.js"
+    "static/js/2.0b3e8c03.chunk.js",
+    "static/css/main.3b97ffac.chunk.css",
+    "static/js/main.d2f24cef.chunk.js"
   ]
 }
