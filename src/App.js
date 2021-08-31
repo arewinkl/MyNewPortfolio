@@ -13,7 +13,7 @@ class App extends Component {
     <Layout>
         <Header className="header-color" scroll>
             <Navigation>
-                <Link className="nav_link" to="/reactPortfolio">HOME</Link>
+                <Link className="nav_link" to="/MyNewPortfolio">HOME</Link>
                 <Link className="nav_link" to="/aboutme">ABOUT ME</Link>
                 <Link className="nav_link" to="/projects">PORTFOLIO</Link>
                 <Link className="nav_link" to="/contact">CONTACT</Link>
@@ -21,7 +21,7 @@ class App extends Component {
         </Header>
         <Drawer>
             <Navigation>
-                <Link className="nav_link" to="/reactPortfolio">HOME</Link>
+                <Link className="nav_link" to="/MyNewPortfolio">HOME</Link>
                 <Link className="nav_link" to="/aboutme">ABOUT ME</Link>
                 <Link className="nav_link" to="/projects">PORTFOLIO</Link>
                 <Link className="nav_link" to="/contact">CONTACT</Link>
