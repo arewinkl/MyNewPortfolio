@@ -1,8 +1,8 @@
 {
-  "name": "reactportfolio",
+  "name": "mynewportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arewinkl.github.io/reactPortfolio",
+  "homepage": "https://arewinkl.github.io/MyNewPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",

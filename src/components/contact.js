@@ -34,7 +34,7 @@ function close(){
                     </a>
                     <a href="https://www.linkedin.com/in/alec-rewinkel-90a7a218b/" rel="noreferrer" target="_blank">
                       <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                      Linked-In/ Alec Rewinkel
+                      Linked-In/Alec Rewinkel
                     </a>
                     <a href="https://github.com/arewinkl" rel="noreferrer" target="_blank">
                       <i className="fa fa-github-square" aria-hidden="true"/>
