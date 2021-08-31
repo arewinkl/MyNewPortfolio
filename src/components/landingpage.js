@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ParticlesBg from 'particles-bg';
 import Resume from  '../assets/images/portfolio-resumes.png'
 
+
 class Landing extends Component {
     render(){
         return(
@@ -11,7 +12,7 @@ class Landing extends Component {
                 <div className='lp_wrapper'>
                   <h1 className="lp_header">Hello, I'm <span style={{ color:'#04c2c9' }}>Alec Rewinkel</span>.</h1>
                   <h1 className="lp_header">I'm a full-stack web developer.</h1>
-                  <a className='lp_cta' href='/projects'>View my work</a>
+                  <a className='lp_cta' href='projects'>View my work</a>
                   <a className='lp_cta' href={Resume} rel="noreferrer"  target="_blank">View my resume</a>
                 </div>
                     
