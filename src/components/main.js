@@ -11,9 +11,9 @@ import Projects from './projects';
 const Main = () => (
     <Switch>
         <Route  exact path ="/MyNewPortfolio" component={LandingPage} />
-        <Route  path ="/aboutme" component={AboutMe} />
-        <Route  path ="/contact" component={Contact} />
-        <Route  path ="/projects" component={Projects} />
+        <Route  path ="/MyNewPortfolio/aboutme" component={AboutMe} />
+        <Route  path ="/MyNewPortfolio/contact" component={Contact} />
+        <Route  path ="/MyNewPortfolio/projects" component={Projects} />
         <Route  path ="/resume" component={Resume} />
     </Switch>
 )
