@@ -1,13 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ParticlesBg from 'particles-bg';
-import Resume from  '../assets/images/portfolio-resumes.png'
-import  history from './history'
+import Resume from  '../assets/images/portfolio-resumes.png';
+/*import  history from './history';*/
+import { useHistory } from 'react-router-dom';
 
 
 
+function Landing(){
+let history = useHistory();
 
-class Landing extends Component {
-    render(){
+
         return(
             <div style={{width: '100%', margin: 'auto'}} className='lp_background'>
               <div ></div>
@@ -26,6 +28,6 @@ class Landing extends Component {
             </div>
         );
     }
-}
+
 
 export default Landing;
