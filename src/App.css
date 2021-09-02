@@ -51,6 +51,9 @@
   top: 20px;
   position: relative;
   margin: 14px;
+  background: none;
+  border: 1px solid rgb(255, 64, 129);
+  color: rgb(255, 64, 129);
 }
 
 .lp_cta:hover {

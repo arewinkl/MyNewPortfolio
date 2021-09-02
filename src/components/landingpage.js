@@ -17,7 +17,7 @@ let history = useHistory();
                 <div className='lp_wrapper'>
                   <h1 className="lp_header">Hello, I'm <span style={{ color:'#04c2c9' }}>Alec Rewinkel</span>.</h1>
                   <h1 className="lp_header">I'm a full-stack web developer.</h1>
-                  <a className='lp_cta' href="projects">View my work</a>
+                  <button className='lp_cta' onClick={()=> history.push('/projects')}>View my work</button>
                   <a className='lp_cta' href={Resume} rel="noreferrer"  target="_blank">View my resume</a>
                   <button variant="btn btn-success" onClick={()=> history.push('/projects')}>poww</button>
                   
