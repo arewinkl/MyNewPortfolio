@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import ParticlesBg from 'particles-bg';
 import Resume from  '../assets/images/portfolio-resumes.png'
+import  history from './history'
+
+
 
 
 class Landing extends Component {
@@ -14,6 +17,8 @@ class Landing extends Component {
                   <h1 className="lp_header">I'm a full-stack web developer.</h1>
                   <a className='lp_cta' href="projects">View my work</a>
                   <a className='lp_cta' href={Resume} rel="noreferrer"  target="_blank">View my resume</a>
+                  <button variant="btn btn-success" onClick={()=> history.push('/projects')}>wowoww</button>
+                  
                 </div>
                     
 
