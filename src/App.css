@@ -483,3 +483,38 @@
 .bottom-text a {
   color: white;
 }
+.apps {
+  padding: 30px;
+}
+.tart {
+  margin: 30px;
+}
+@media screen and (max-width: 450px) {
+  .lp_cta {
+    padding: 8px 14px;
+    text-decoration: none;
+    border: 1px solid;
+    font-size: 1.2em;
+    top: 20px;
+    position: relative;
+    margin: 14px;
+    background: none;
+    border: 1px solid rgb(255, 64, 129);
+    color: rgb(255, 64, 129);
+  }
+  .lp_header {
+    color: #fff;
+    font-size: 2.5em;
+    line-height: 1;
+  }
+  .alec-tabs h2 {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 2.5em;
+  }
+  .about_info p {
+    font-size: 24px;
+    text-align: left;
+    padding: 20px;
+  }
+}
