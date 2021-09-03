@@ -19,7 +19,7 @@ let history = useHistory();
                   <h1 className="lp_header">I'm a full-stack web developer.</h1>
                   <button className='lp_cta' onClick={()=> history.push('/projects')}>View my work</button>
                   <a className='lp_cta' href={Resume} rel="noreferrer"  target="_blank">View my resume</a>
-                  <button variant="btn btn-success" onClick={()=> history.push('/projects')}>poww</button>
+                  
                   
                 </div>
                     
