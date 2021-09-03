@@ -12,7 +12,7 @@ class Projects extends Component {
         return(
             <div className="apps">
 
-                    <Card className="tart"  shadow={100} style={{ width: '350px', height: '530px', textAlign: 'center', display: 'inline-block'}}>
+                    <Card className="tart"  shadow={100} style={{ textAlign: 'center', display: 'inline-block'}}>
                         <CardTitle expand style={{color: 'white', textShadow:'2px 0',height: '330px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3'}}>React Employee Directory</CardTitle>
                         <CardText >
                             This react application contains an entire employee directory, and allows you to sort through the directory by employee names to find their contact information.
@@ -22,7 +22,7 @@ class Projects extends Component {
                             <Button href="https://arewinkl.github.io/employee-Directory/" target="_blank" colored>GitHub Pages</Button>
                         </CardActions>
                     </Card>,
-                    <Card className="tart" shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', font:'40px', display: 'inline-block'}}>
+                    <Card className="tart" shadow={100} style={{ textAlign: 'center', font:'40px', display: 'inline-block'}}>
                         <CardTitle  expand style={{color: 'white', textShadow:'2px 0', height: '330px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3' }}>
                             Conference Planner</CardTitle>
                         <CardText >
@@ -33,7 +33,7 @@ class Projects extends Component {
                             <Button href="https://conference-planner.herokuapp.com/" target="_blank" colored>Heroku</Button>
                         </CardActions>
                      </Card>,
-                     <Card className="tart" shadow={100} style={{display: 'inline-block', width: '350px', height: '530px', textAlign: 'center'}}>
+                     <Card className="tart" shadow={100} style={{display: 'inline-block',  textAlign: 'center'}}>
                         <CardTitle expand style={{color: 'white', textShadow:'2px 0', height: '330px',background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3'}}>Tic-Tac-Toe Master</CardTitle>
                         <CardText >
                             This react application allows the user to practice their tic-tac-toe skills whenever they want! they just need to sit down with a friend and see who is the best. You can even go back and checkout out what the board looked at at different stages of the game.
@@ -43,7 +43,7 @@ class Projects extends Component {
                             <Button href="https://arewinkl.github.io/tic-tac-toe-master/" target="_blank" colored>GitHub Pages</Button>
                         </CardActions>
                     </Card >,
-                    <Card className="tart" shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', display:'inline-block'}}>
+                    <Card className="tart" shadow={100} style={{ textAlign: 'center', display:'inline-block'}}>
                         <CardTitle expand style={{color: 'white', textShadow:'2px 0', height: '330px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png)center/ cover #D3D3D3'}}>Music Master</CardTitle>
                         <CardText className="meow">
                             This react application called MusicMaster, is for all those out there who love music and want to stay up to date on the newest & most popular music. You can make playlists of your favorite artists and songs. If you like collecting records you can use the wishlist tab to save albums as a resource when you are out looking to buy more.
@@ -59,7 +59,7 @@ class Projects extends Component {
             return(
                 <div>
 
-            <Card className="tart" shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', display: 'inline-block'}}>
+            <Card className="tart" shadow={100} style={{ textAlign: 'center', display: 'inline-block'}}>
                 <CardTitle expand style={{color: 'white',textShadow:'2px 0', height: '330px', background: 'url(https://img.icons8.com/color/452/mongodb.png)center/ cover #D3D3D3'}}>
 
                     Budget Tracker</CardTitle>
@@ -71,7 +71,7 @@ class Projects extends Component {
 
                 </CardActions>
             </Card>,
-            <Card className="tart" shadow={100} style={{display: 'inline-block', width: '350px', height: '530px', textAlign: 'center'}}>
+            <Card className="tart" shadow={100} style={{display: 'inline-block', textAlign: 'center'}}>
                 <CardTitle expand style={{color: 'white', textShadow:'2px 0', height: '330px', background: 'url(https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png)center/ cover #D3D3D3'}}>
 
                     Eat-Da-Burger</CardTitle>
@@ -89,7 +89,7 @@ class Projects extends Component {
         }else if (this.state.activeTab === 2){
            return(
            <div>
-                <Card className="tart" shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', display: 'inline-block'}}>
+                <Card className="tart" shadow={100} style={{ textAlign: 'center', display: 'inline-block'}}>
                 <CardTitle expand style={{color: 'white', textShadow:'2px 0', height:'330px', background: 'url(https://logodix.com/logo/1764882.png) center/ cover #D3D3D3'}}>Couch Surfer Travel Blog</CardTitle>
                 <CardText >
                     This application allows the user to create an account, from there they have the ability to write a blog post on the topic that they choose. When they log in they can see previous blogs, edit posts/ and delete them if they want.
@@ -99,7 +99,7 @@ class Projects extends Component {
                     <Button href="https://dry-scrubland-38194.herokuapp.com/" target="_blank" colored>Heroku</Button>
                 </CardActions>
             </Card>,
-            <Card className="tart" shadow={100} style={{width: '350px', height: '530px', textAlign: 'center', display: 'inline-block'}}>
+            <Card className="tart" shadow={100} style={{ textAlign: 'center', display: 'inline-block'}}>
                 <CardTitle expand style={{color: 'white', textShadow:'2px 0', height: '330px', background: 'url(https://logodix.com/logo/1764882.png) center/ cover #D3D3D3'}}>Team Builder</CardTitle>
                 <CardText >
                     This application allows the user to operate from the command line & create a Team Homepage HTML file. Once they run node.js they follow the prompts/ answer a few questions and the file is made!
@@ -115,8 +115,8 @@ class Projects extends Component {
            return(
                <div>
 
-            <Card className="tart" shadow={100} style={{display:'inline-block', width: '350px', height: '530px',textAlign:'center'}}>
-                    <CardTitle expand style={{color: 'Black', textShadow:'2px 0', height:'320px', background: 'url(https://cdn1.vectorstock.com/i/1000x1000/80/95/json-file-document-icon-vector-24678095.jpg) center/ cover #D3D3D3'}}>WeatherMan</CardTitle>
+            <Card className="tart" shadow={100} style={{display:'inline-block', textAlign:'center'}}>
+                    <CardTitle expand style={{color: 'Black', textShadow:'2px 0', height:'300px', background: 'url(https://cdn1.vectorstock.com/i/1000x1000/80/95/json-file-document-icon-vector-24678095.jpg) center/ cover #D3D3D3'}}>WeatherMan</CardTitle>
                 <CardText>
                 "IN PROGRESS" This application allows the user to check the weather in any city that they wish, all that they need to do is fire it up and type in where they would like to check the weather, and there it is!
                 </CardText>
@@ -125,7 +125,7 @@ class Projects extends Component {
                 <Button href="https://arewinkl.github.io/NewWeatherApp/" target="_blank" colored>GitHub Pages</Button>
                 </CardActions>
             </Card>,
-            <Card className="tart" shadow={100} style={{display:'inline-block', width: '350px', height: '530px',textAlign:'center'}}>
+            <Card className="tart" shadow={100} style={{display:'inline-block', textAlign:'center'}}>
                     <CardTitle expand style={{color: 'Black', textShadow:'2px 0', height:'320px', background: ' bottom right 15% no-repeat #D3D3D3'}}>Sports-Talk</CardTitle>
                 <CardText>
                 (In Progress) a sports app that would allow the user to search and find news about their favorite sports.
