@@ -304,6 +304,8 @@
 .contact-message {
   border-radius: 6px;
   border: 2px solid black;
+  width: 455px;
+  height: 100px;
 }
 .email-input {
   border-radius: 6px;
@@ -538,7 +540,7 @@
     font-size: 12px;
   }
   .item-contacts a {
-    font-size: 16px;
+    font-size: 14px;
   }
   .show-btn {
     font-size: 18px;
@@ -550,5 +552,47 @@
     margin-left: 25%;
     float: left;
     margin-bottom: 8rem;
+  }
+  .modal-content {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .contact-message {
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 280px;
+    height: 150px;
+  }
+  .modal-btn {
+    font-size: 22px;
+    border-radius: 6px;
+    width: 290px;
+    background-color: #04c2c9;
+    border: none;
+  }
+  .email-input {
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 275px;
+    margin-left: 0px;
+    padding: 4px;
+  }
+  .subject-input {
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 275px;
+    margin-left: 0px;
+    padding: 4px;
+  }
+  .name-input {
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 275px;
+    margin-left: 0px;
+    padding: 4px;
   }
 }

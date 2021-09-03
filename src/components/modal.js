@@ -58,7 +58,7 @@ const Modal = props => {
                 </div>
                 
                 <div className="modal-footer">
-                    Message:<br/> <textarea className="contact-message" name="contact-message" rows="8" cols="55" id="message"></textarea>
+                    Message:<br/> <textarea className="contact-message" name="contact-message"   id="message"></textarea>
                     <div>
                     <button id="sub" type="submit" value="send" className="modal-btn">Send</button>
                     </div>
