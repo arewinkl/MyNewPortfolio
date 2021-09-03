@@ -349,6 +349,7 @@
 .app-tabs {
   background: #343642;
 }
+
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
   color: rgb(255, 64, 129);
 }
@@ -491,6 +492,10 @@
   width: 350px;
   height: 530px;
 }
+.tabtab {
+  color: white;
+  font-weight: bolder;
+}
 @media screen and (max-width: 450px) {
   .lp_cta {
     padding: 8px 14px;
@@ -526,5 +531,10 @@
   }
   .apps {
     padding: 0px;
+  }
+  .tabtab {
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
   }
 }

@@ -2,10 +2,13 @@ import React, {Component} from 'react';
 import { Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, Button, CardText } from 'react-mdl';
 import '../App.css';
 
+
 class Projects extends Component {
+   
     constructor(props) {
         super(props);
         this.state= {activeTab: 0};
+        
     }
     toggleCategories(){
     if(this.state.activeTab === 0){
@@ -143,10 +146,12 @@ class Projects extends Component {
         return(
             <div className="app-tabs">
            <Tabs  activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-               <Tab style={{color: 'white', fontWeight: 'bolder'}}>React</Tab>
-               <Tab style={{color: 'white', fontWeight: 'bolder'}}>MongoDB/ MySQL</Tab>
-               <Tab style={{color: 'white', fontWeight: 'bolder'}}>Node.js</Tab>
-               <Tab style={{color: 'white', fontWeight: 'bolder'}}>More Projects</Tab>
+              
+               <Tab> <div className="tabtab">React</div></Tab>
+               <Tab><div className="tabtab">MongoDB/ MySQL</div></Tab>
+               <Tab><div className="tabtab">Node.js</div></Tab>
+               <Tab><div className="tabtab">More Projects</div></Tab>
+               
            </Tabs>
 
            <section className="projects-grid">
