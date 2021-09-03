@@ -537,4 +537,18 @@
     font-weight: bolder;
     font-size: 12px;
   }
+  .item-contacts a {
+    font-size: 16px;
+  }
+  .show-btn {
+    font-size: 18px;
+    border-radius: 8px;
+    border: double;
+    color: #343642;
+    background-color: #04c2c9;
+    margin-top: 2rem;
+    margin-left: 25%;
+    float: left;
+    margin-bottom: 8rem;
+  }
 }
