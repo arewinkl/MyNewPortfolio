@@ -16,7 +16,7 @@ import history from './history';
  return (
    
         <Switch history={history}>
-            <Route  exact path ="/MyNewPortfolio" component={LandingPage} />
+            <Route  exact path ="/Portfolio" component={LandingPage} />
             <Route  path ="/aboutme" component={AboutMe} />
             <Route  path ="/contact" component={Contact} />
             <Route  path ="/projects" component={Projects} />

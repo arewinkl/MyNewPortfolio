@@ -25,7 +25,7 @@ class App extends Component {
     <Layout>
         <Header className="header-color" scroll>
             <Navigation>
-                <Link onClick={homeBtn} className="nav_link" to="/MyNewPortfolio">HOME</Link>
+                <Link onClick={homeBtn} className="nav_link" to="/Portfolio">HOME</Link>
                 <Link onClick={aboutBtn} className="nav_link" to="/aboutme">ABOUT ME</Link>
                 <Link onClick={projectBtn} className="nav_link" to="/projects">PORTFOLIO</Link>
                 <Link onClick={contactBtn} className="nav_link" to="/contact">CONTACT</Link>
@@ -33,7 +33,7 @@ class App extends Component {
         </Header>
         <Drawer>
             <Navigation>
-                <Link onClick={homeBtn} className="nav_link" to="/MyNewPortfolio">HOME</Link>
+                <Link onClick={homeBtn} className="nav_link" to="/Portfolio">HOME</Link>
                 <Link onClick={aboutBtn} className="nav_link" to="/aboutme">ABOUT ME</Link>
                 <Link onClick={projectBtn} className="nav_link" to="/projects">PORTFOLIO</Link>
                 <Link onClick={contactBtn} className="nav_link" to="/contact">CONTACT</Link>
